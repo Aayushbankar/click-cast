@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <title>ClickCast: Your Point for All Insights</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+    <div class="container-fluid">
+      <div class="navbar-brand fw-bold" style="font-size: 1.5rem; color: #007bff;">ClickCast</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-button" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-button" href="/about">About</a> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- News Container -->
+  <div class="container mt-5">
+    <div class="row" id="news-container">
+      <!-- Articles will be dynamically added here -->
+    </div>
+    <div class="mt-4 d-flex justify-content-center" id="pagination-container">
+      <!-- Pagination buttons will be appended here -->
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

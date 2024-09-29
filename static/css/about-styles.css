@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid #007bff;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-top: 20px;
+    background-color: #f8f9fa; 
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+.contact-info h4 {
+    margin-bottom: 10px; 
+}
